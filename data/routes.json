@@ -1,0 +1,35 @@
+[
+  {
+    "bib": "01",
+    "id": "riverside-loop",
+    "name": "Riverside Easy Loop",
+    "distanceMi": 3.1,
+    "elevationFt": 60,
+    "blaze": "blue",
+    "difficulty": "Easy",
+    "description": "Flat out-and-back along the river path. Our default Tuesday night route — good for newer runners or an easy recovery day.",
+    "gpx": "routes/riverside-loop.gpx"
+  },
+  {
+    "bib": "02",
+    "id": "millpond-tempo",
+    "name": "Millpond Tempo",
+    "distanceMi": 5.4,
+    "elevationFt": 210,
+    "blaze": "yellow",
+    "difficulty": "Moderate",
+    "description": "Rolling hills around the pond with one sustained climb at mile 3. Popular for tempo workouts on Thursdays.",
+    "gpx": "routes/riverside-loop.gpx"
+  },
+  {
+    "bib": "03",
+    "id": "ridge-climb",
+    "name": "Ridge Climb",
+    "distanceMi": 7.8,
+    "elevationFt": 640,
+    "blaze": "red",
+    "difficulty": "Hard",
+    "description": "The long Sunday route. Two real climbs and a fast descent back into town. Bring water in summer.",
+    "gpx": "routes/riverside-loop.gpx"
+  }
+]
