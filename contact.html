@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Join — Mystic Mile Run Club</title>
+<title>Join — Longwood on the Move</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="index.html"><span class="brand-mark"></span>Mystic Mile Run Club</a>
+    <a class="brand" href="index.html"><span class="brand-mark"></span>Longwood on the Move</a>
     <nav class="primary-nav" aria-label="Primary">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -27,52 +27,21 @@
   <div class="wrap">
     <div class="section-head">
       <h2>Join a run, or just say hi</h2>
-      <span class="section-note">No membership fee. This just lets us know you're coming.</span>
+      <span class="section-note">Scan the QR code on our flier below to get on our Instagram and email lists.</span>
     </div>
 
-    <!--
-      This form posts to Formspree (formspree.io), a free service that
-      emails form submissions to you — no backend server needed on a
-      static GitHub Pages site.
-
-      To set it up:
-        1. Sign up free at https://formspree.io
-        2. Create a form, copy the endpoint it gives you
-           (looks like https://formspree.io/f/abcdwxyz)
-        3. Replace the placeholder action="" URL below with it
-      Until you do that, this form won't actually send anywhere.
-    -->
-    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-      <div class="field">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
-      </div>
-      <div class="field">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      <div class="field">
-        <label for="pace">Roughly how do you run?</label>
-        <select id="pace" name="pace">
-          <option>New to running</option>
-          <option>Comfortable jogger</option>
-          <option>Regular racer</option>
-          <option>Not sure, just curious</option>
-        </select>
-      </div>
-      <div class="field">
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Which run are you thinking of joining, or anything else we should know?"></textarea>
-      </div>
-      <button class="btn btn-primary" type="submit">Send it</button>
-      <p class="form-note">We'll reply by email, usually within a day or two.</p>
-    </form>
+    <div class="flier-embed">
+      <a href="join-flier.pdf">
+        <img src="images/join-flier.png" alt="Longwood on the Move flier with QR code to join our Instagram and email lists">
+      </a>
+    </div>
+    <p class="form-note"><a href="join-flier.pdf">Download the flier</a></p>
   </div>
 </section>
 
 <footer class="site-footer">
   <div class="wrap">
-    <span>Mystic Mile Run Club</span>
+    <span>Longwood on the Move</span>
     <span><a href="contact.html">Get in touch</a></span>
   </div>
 </footer>

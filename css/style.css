@@ -1,6 +1,6 @@
 /* ==========================================================================
-   Mystic Mile Run Club — stylesheet
-   Rename "Mystic Mile" throughout, or just edit the --club-name usages
+   Longwood on the Move — stylesheet
+   Rename "Longwood on the Move" throughout, or just edit the --club-name usages
    and the text in each HTML file's header.
    ========================================================================== */
 
@@ -456,6 +456,20 @@ form.contact-form {
   font-size: 0.9rem;
   color: var(--slate);
   margin-top: 20px;
+}
+
+.flier-embed {
+  max-width: 420px;
+  border: 2px solid var(--bark);
+  border-radius: 2px;
+  background: var(--chalk);
+  overflow: hidden;
+}
+
+.flier-embed img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* ---------- Footer ---------- */

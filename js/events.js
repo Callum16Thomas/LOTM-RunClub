@@ -17,7 +17,7 @@
       .sort((a, b) => new Date(a.date) - new Date(b.date));
 
     if (events.length === 0) {
-      listEl.innerHTML = '<p class="empty-state">No runs on the calendar yet — check back soon, or add one in data/events.json.</p>';
+      listEl.innerHTML = '<p class="empty-state">No special events planned yet — check back soon, or add one in data/events.json.</p>';
       return;
     }
 

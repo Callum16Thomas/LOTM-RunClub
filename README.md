@@ -1,4 +1,4 @@
-# Mystic Mile Run Club — website
+# Longwood on the Move — website
 
 A plain HTML/CSS/JS site, no build step, no framework. Everything renders
 from static files, which is what makes it free to host on GitHub Pages.
@@ -37,15 +37,15 @@ routes/*.gpx    GPX track files, one per route
    within a minute or two. Every `git push` after that updates the live
    site automatically.
 
-If you'd rather have a shorter URL later (like `mysticmilerun.club`), you
+If you'd rather have a shorter URL later, you
 can add a custom domain in that same Pages settings page — that step
 costs money (buying the domain) but the hosting itself stays free.
 
 ## 2. Rename the club
 
-Search-and-replace "Mystic Mile Run Club" across the `.html` files with
-your actual club name. It appears in the `<title>`, the nav brand link,
-and the footer of each page.
+The club is currently named "Longwood on the Move". To rename it again,
+search-and-replace that name across the `.html` files — it appears in the
+`<title>`, the nav brand link, and the footer of each page.
 
 ## 3. Add or edit routes
 
